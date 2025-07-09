@@ -1,0 +1,42 @@
+[project]
+name = "gamma_SRME"
+dynamic = ["version"]
+description = "Grüneisen parameter test for foundation interatomic potentials"
+authors = [
+    { name = "Balázs Póta" },
+    { name = "Gábor Csányi" },
+    { name = "Michele Simoncelli", email = "ms2855@cam.ac.uk" },
+    { name = "Paramvir Ahlawat" },
+]
+readme = "README.md"
+license = { text = "GPL-3.0-only" }
+requires-python = ">=3.10"
+dependencies = [
+    "ase>=3.23.0",
+    "h5py",
+    "numpy",
+    "pandas>=2.2.3",
+    "spglib",
+    "tqdm",
+    "phonopy",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+
+[project.urls]
+homepage = "https://github.com/MPA2suite/gamma_SRME"
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gamma_SRME*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "gamma_SRME.__version__" }

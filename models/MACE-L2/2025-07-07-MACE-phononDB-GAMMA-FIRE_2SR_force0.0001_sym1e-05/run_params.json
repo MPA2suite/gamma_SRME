@@ -1,0 +1,26 @@
+{
+    "timestamp": "2025-07-07 20:42:13",
+    "gamma_srme_version": "0.0.1",
+    "model_name": "MACE",
+    "checkpoint": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_mp_0/2024-01-07-mace-128-L2_epoch-199.model",
+    "device": "cuda",
+    "dtype": "float64",
+    "versions": {
+        "numpy": "1.26.4",
+        "torch": "2.7.1+cu128"
+    },
+    "ase_optimizer": "FIRE",
+    "ase_filter": "frechet",
+    "if_two_stage_relax": true,
+    "max_steps": 300,
+    "force_max": 0.0001,
+    "symprec": 1e-05,
+    "enforce_relax_symm": true,
+    "phonopy_use_symmetry": false,
+    "slurm_array_task_count": 1,
+    "slurm_array_job_id": "0",
+    "task_type": "GAMMA",
+    "job_name": "MACE-phononDB-GAMMA-FIRE_2SR_force0.0001_sym1e-05",
+    "struct_data_path": "phononDB-PBE-structures.extxyz",
+    "n_structures": 103
+}
