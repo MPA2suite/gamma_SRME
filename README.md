@@ -1,6 +1,6 @@
-# γ_SRME: Grüneisen parameter benchmark test for foundational machine-learning potentials
+# γ<sub>SRME</sub>: Grüneisen parameter benchmark test for foundational machine-learning potentials
 
-γ_SRME employs foundation Machine Learning Interatomic Potentials and phonopy to determine the Grüneisen parameter responsible for the thermal expansion and compare them to DFT reference data.
+γ<sub>SRME</sub> employs foundation Machine Learning Interatomic Potentials and phonopy to determine the Grüneisen parameter responsible for the thermal expansion and compare them to DFT reference data.
 
 # Install 
 Clone repository:
