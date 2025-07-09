@@ -17,9 +17,9 @@ The example scripts showcase a sample workflow for testing a MACE potential and 
 
 Example scripts are found in the `scripts` folder. Model results and scripts are found in the `models` folder. 
 
-To obtain Grüneisen parameter results you may run the workflow on a GPU job, as phonopy has relatively low CPU cost. The `1_test_srme.py` script calculates the displaced force sets and the Grüneisen parameter for each material. The script also supports job arrays outputting one file per array task, which are collected in the evaluation script.
+To obtain Grüneisen parameter results you may run the workflow on a GPU job, as phonopy has relatively low CPU cost. The `1_gruneisen_srme.py` script calculates the displaced force sets and the Grüneisen parameter for each material. The script also supports job arrays outputting one file per array task, which are collected in the evaluation script.
 
-The `2_evaluate.py` script evaluates the predictions, collecting the array task files and printing the results both to the terminal and to a file. The `gamma_srme.json.gz` output file contain additional information about the model run, which can be read as a pandas DataFrame for further analysis.
+The `2_evaluate_gruneisen.py` script evaluates the predictions, collecting the array task files and printing the results both to the terminal and to a file. The `gamma_srme.json.gz` output file contain additional information about the model run, which can be read as a pandas DataFrame for further analysis.
 
 
 
