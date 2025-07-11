@@ -27,7 +27,7 @@ DATA_DIR = f"{DATA_DIR}"
 STRUCTURES_FILE = "phononDB-PBE-structures.extxyz"
 STRUCTURES = f"{DATA_DIR}/{STRUCTURES_FILE}"
 
-DFT_NAC_REF_FILE = "gruneisen_DFT_NAC.json.gz"
+DFT_NAC_REF_FILE = "gruneisen_DFT_NAC-Gonze.json.gz"
 DFT_NONAC_REF_FILE = "gruneisen_DFT_noNAC.json.gz"
 DFT_NAC_REF = f"{DATA_DIR}/{DFT_NAC_REF_FILE}"
 DFT_NONAC_REF = f"{DATA_DIR}/{DFT_NONAC_REF_FILE}"
